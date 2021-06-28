@@ -1,0 +1,26 @@
+{
+  "name": "node-weather-app",
+  "version": "1.0.0",
+  "description": "game-fs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roman-Trukhtanov/node-weather-app.git"
+  },
+  "author": "roman_trukhtanov <roman_trukhtanov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roman-Trukhtanov/node-weather-app/issues"
+  },
+  "homepage": "https://github.com/Roman-Trukhtanov/node-weather-app#readme",
+  "dependencies": {
+    "yargs": "17.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
